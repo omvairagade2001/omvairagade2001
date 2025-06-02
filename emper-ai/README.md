@@ -56,7 +56,7 @@ Recruiter Input                                                                 
 2 “Looking for a cook who also does dishes in Nagpur, ₹7000”                	-Understands dual-role requirement and budget → filters                                                                                  multi-skilled workers
 3 “Need a part-time maid in the morning for 2 hours”	                        -Parses time-based need, schedule, and city → matches                                                                                    part-timers
 
-
+```
 ⸻
 
 ## ⚙️ Architecture
@@ -77,24 +77,24 @@ WhatsApp Business (Support & Upgrades)
 
 
 ⸻
-
+```
 🔧 Tech Stack
+```
+Layer										Tools / Services
+Language Model									OpenAI GPT-4 Mini (via API)
+Backend Logic									Python, Pandas, Prompt Engineering
+Form Inputs									Google Forms (converted to Excel)
+Data Processing									Excel (Pandas), CSV, Custom Chunking Logic
+Messaging									Telegram Bot API (pyTelegramBotAPI)
+Email Reminders									Gmail SMTP
+Support Channel									WhatsApp Business
+Hosting / Infra									Azure VM or Local Server (scheduled via CRON)
 
-Layer	Tools / Services
-Language Model	OpenAI GPT-4 Mini (via API)
-Backend Logic	Python, Pandas, Prompt Engineering
-Form Inputs	Google Forms (converted to Excel)
-Data Processing	Excel (Pandas), CSV, Custom Chunking Logic
-Messaging	Telegram Bot API (pyTelegramBotAPI)
-Email Reminders	Gmail SMTP
-Support Channel	WhatsApp Business
-Hosting / Infra	Azure VM or Local Server (scheduled via CRON)
+```
 
-
-⸻
 
 🧠 GPT Matching Logic (Simplified Pseudocode)
-
+```
 for recruiter in recruiter_list:
     job_description = format_job_prompt(recruiter)
     
@@ -108,10 +108,10 @@ for recruiter in recruiter_list:
     send_to_telegram(recruiter.telegram_id, top_matches)
 
 
-⸻
+```
 
 📁 Project Structure
-
+```
 emper-ai/
 ├── README.md                    ← Full documentation (this file)
 ├── ai-matching-logic.py        ← Main GPT loop & filtering engine
@@ -124,56 +124,43 @@ emper-ai/
 ├── job_seekers.xlsx            ← Sample job seeker form export
 ├── requirements.txt            ← Python dependencies
 └── __init__.py                 ← (Optional) Python package initializer
-
+```
 
 ⸻
 
 🔥 Competitive Advantage
-
-Feature	Legacy Platforms	Emper.ai
-Free-form recruiter inputs	❌	✅
-GPT-based AI matching	❌	✅
-Works via Telegram	❌	✅
-Handles low-tech job seekers	❌	✅
-Zero login, no portal	❌	✅
-
+```
+Feature	Legacy Platforms					Emper.ai
+Free-form recruiter inputs	❌				✅
+GPT-based AI matching		❌				✅
+Works via Telegram		❌				✅
+Handles low-tech job seekers	❌				✅
+Zero login, no portal		❌				✅
+```
 
 ⸻
 
-💡 Future Plans
+#💡 Future Plans
+```
 	•	Switch to PostgreSQL database for scale
 	•	Add employer feedback loop for rating matches
 	•	Enable resume generation for job seekers using GPT
 	•	API-based recruiter onboarding (instead of forms)
 
 ⸻
-
+```
 👨‍💻 Built By
-
+```
 Om Vairagade
 Founder – Emper.ai | AI Developer @ TCS
 📍 Nagpur, Maharashtra
 📧 omvairagade2001@gmail.com
 🔗 LinkedIn
 🔗 GitHub
-
+```
 ⸻
 
 🚀 “Emper.ai doesn’t just recommend — it understands your hiring needs.”
 
 ---
 
-## ✅ Next Step
-
-You're now ready to build the **repo files** listed in this README:
-
-1. `ai-matching-logic.py`
-2. `prompt_builder.py`
-3. `telegram_bot_sender.py`
-4. `gpt_chunking.py`
-5. `email_reminder.py`
-6. `whatsapp-flow.md`
-7. `requirements.txt`
-8. Sample: `recruiters.xlsx`, `job_seekers.xlsx`
-
-Shall I begin generating each one, starting with `ai-matching-logic.py`?
