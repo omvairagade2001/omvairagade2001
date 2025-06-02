@@ -155,8 +155,6 @@ Om Vairagade
 Founder – Emper.ai | AI Developer @ TCS
 📍 Nagpur, Maharashtra
 📧 omvairagade2001@gmail.com
-🔗 LinkedIn
-🔗 GitHub
 ```
 ⸻
 
