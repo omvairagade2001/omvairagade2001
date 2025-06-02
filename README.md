@@ -24,7 +24,7 @@ I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building rea
 
 📄 [**Download Resume (PDF)**](./om-aideveloper-resume/Om-aideveloper-Resume.pdf)
 
-📄 [**View in Markdown**](./om-aideveloper-resume/resume.md)
+📄 [**View in Markdown**](./om-aideveloper-resume/README.md)
 
 ---
 
