@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Om Vairagade</h1>
 
 <p align="center">
-  <strong>AI Developer | GPT + Cloud Innovator | Founder @ Emper.ai</strong>  
+  <strong>AI Developer | Ai Developer | Innovation Specialist | Founder @ Emper.ai</strong>  
   <br>
   <a href="mailto:omvairagade2001@gmail.com">📩 Email</a> • 
   <a href="https://www.linkedin.com/in/omvairagade2001">💼 LinkedIn</a> • 
