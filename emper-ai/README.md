@@ -1,87 +1,179 @@
 # 🧠 Emper.ai – GPT-Powered Hiring Platform
 
-> India's first AI-based job matching platform for both skilled and unskilled workers, powered by GPT and WhatsApp automation.
+> The future of hiring — fully automated, form-based GPT matchmaking that delivers top candidates over Telegram, every weekend. No apps, no filters, just results.
 
 ---
 
-## 🚀 Overview
+## 🚀 What is Emper.ai?
 
-**Emper.ai** is an end-to-end AI-driven recruitment platform that enables fast, intelligent matchmaking between recruiters and job seekers — completely over WhatsApp.
+**Emper.ai** is India’s first **GPT-powered job matching platform** for both skilled and unskilled workers.
 
-Developed solo from scratch, Emper.ai lets recruiters submit free-form job prompts like:
+The system is designed to be ultra-simple and fully automated:
+- Recruiters fill out a **Google Form** describing their needs (with a free-form "custom requirement" field).
+- Job seekers fill a **separate Google Form** with details like location, skill, expected pay, etc.
+- Every weekend, Emper.ai matches the best candidates for each recruiter using **GPT-4 mini** — and sends the list via **Telegram Bot**.
+- Payment reminders go via **Gmail**, and support is handled over **WhatsApp Business or phone**.
 
-> _"I need a cook who can also manage groceries for ₹7,000 per month and is okay working in Nagpur."_
-
-The system uses GPT-based logic to:
-- Interpret the job prompt
-- Match relevant candidate profiles from the database
-- Send automated recommendations via WhatsApp or email
-
----
-
-## 🔧 Tech Stack
-
-| Layer | Tools |
-|-------|-------|
-| AI Matching | GPT-4, Prompt Engineering |
-| Backend Logic | Python |
-| Automation & Flow | WhatsApp API, Flask |
-| Deployment | Azure Cloud |
-| Database | JSON/CSV-based candidate profiles (v1), SQL (planned v2) |
-| Communication | WhatsApp Cloud API, SMTP for fallback email delivery |
+This platform was **built solo**, from scratch, and optimized for scale using prompt engineering, Python, and automated cloud workflows.
 
 ---
 
-## 🧩 Core Features
+## 🧠 Key Highlights
 
-- ✅ Free-form GPT prompt interpretation
-- ✅ Auto-matching of job posts to candidate filters
-- ✅ WhatsApp chatbot for recruiters
-- ✅ Dynamic profile rendering and delivery
-- ✅ No login/signup — fully conversational interface
-- ✅ Solo-developed & deployed MVP
-
----
-
-## 🧪 Use Cases
-
-| Problem | Emper.ai Solution |
-|--------|--------------------|
-| Recruiter doesn't know how to create job filters | Just describe the need in plain text — GPT handles it |
-| Candidate has no resume or LinkedIn | System matches using minimal info (skills, city, expected pay) |
-| Unskilled hiring takes days | Automated matching happens in seconds |
-| Traditional hiring platforms are too formal | Emper.ai works conversationally over WhatsApp |
+✅ GPT-powered custom job matching  
+✅ Weekly automation — no login, no dashboard needed  
+✅ Telegram bot delivery (top 10–20 candidates based on plan)  
+✅ Excel → AI → Telegram flow  
+✅ Handles vague, free-form job requests (e.g., “maid who also cooks veg in Nagpur”)  
+✅ Modular, scalable system with fallback logic and chunking  
 
 ---
 
-## 📸 Screenshots
+## 🧩 Real-World Workflow
 
-📁 See `/screenshots` for:
-- Recruiter input examples
-- WhatsApp responses
-- GPT-processed job → candidate flow
+```text
+Recruiter Form (Google Forms)    👷 Job Seeker Form (Google Forms)
+            │                                  │
+     Stored as Excel                    Stored as Excel
+            │                                  │
+            └─────▶  Python Matching Engine ◀────┘
+                         (Runs every weekend)
+                                │
+                        GPT-4 Mini Prompt Engine
+                                │
+              🔄 Chunk → Compare → Filter → Rank
+                                │
+                📩 Send Top 10–20 via Telegram Bot
+                                │
+                 Gmail (payment reminders if needed)
+                   WhatsApp (for subscription help)
+```
+
+## 🧠 Sample Use Cases
+```
+Recruiter Input                                                                 What Emper.ai Does
+1 “Need a female tailor in Nagpur ₹5000/mo, must know blouse stitching”      	-Interprets gender, location, budget, and skill → filters                                                                                matching candidates
+2 “Looking for a cook who also does dishes in Nagpur, ₹7000”                	-Understands dual-role requirement and budget → filters                                                                                  multi-skilled workers
+3 “Need a part-time maid in the morning for 2 hours”	                        -Parses time-based need, schedule, and city → matches                                                                                    part-timers
+
+
+⸻
+
+## ⚙️ Architecture
+```
+Google Forms (Recruiters & Seekers)
+          ↓
+    Excel Exports (.xlsx)
+          ↓
+  🐍 Python Logic & Chunking
+          ↓
+   🧠 GPT-4 Mini Prompt Engine
+          ↓
+ Telegram API (Send Matched List)
+          ↓
+Gmail SMTP (For payment follow-ups)
+          ↓
+WhatsApp Business (Support & Upgrades)
+
+
+⸻
+
+🔧 Tech Stack
+
+Layer	Tools / Services
+Language Model	OpenAI GPT-4 Mini (via API)
+Backend Logic	Python, Pandas, Prompt Engineering
+Form Inputs	Google Forms (converted to Excel)
+Data Processing	Excel (Pandas), CSV, Custom Chunking Logic
+Messaging	Telegram Bot API (pyTelegramBotAPI)
+Email Reminders	Gmail SMTP
+Support Channel	WhatsApp Business
+Hosting / Infra	Azure VM or Local Server (scheduled via CRON)
+
+
+⸻
+
+🧠 GPT Matching Logic (Simplified Pseudocode)
+
+for recruiter in recruiter_list:
+    job_description = format_job_prompt(recruiter)
+    
+    matches = []
+    for chunk in chunkify(job_seekers, size=15):
+        gpt_input = build_prompt(job_description, chunk)
+        result = gpt_call(gpt_input)
+        matches += parse_response(result)
+
+    top_matches = rank_top_n(matches, recruiter.subscription_tier)
+    send_to_telegram(recruiter.telegram_id, top_matches)
+
+
+⸻
+
+📁 Project Structure
+
+emper-ai/
+├── README.md                    ← Full documentation (this file)
+├── ai-matching-logic.py        ← Main GPT loop & filtering engine
+├── prompt_builder.py           ← Converts job post to GPT-compatible prompt
+├── telegram_bot_sender.py      ← Sends results via Telegram
+├── gpt_chunking.py             ← Handles long job seeker lists
+├── email_reminder.py           ← Sends payment follow-up via Gmail
+├── whatsapp-flow.md            ← Escalation & support logic
+├── recruiters.xlsx             ← Sample recruiter Google Form export
+├── job_seekers.xlsx            ← Sample job seeker form export
+├── requirements.txt            ← Python dependencies
+└── __init__.py                 ← (Optional) Python package initializer
+
+
+⸻
+
+🔥 Competitive Advantage
+
+Feature	Legacy Platforms	Emper.ai
+Free-form recruiter inputs	❌	✅
+GPT-based AI matching	❌	✅
+Works via Telegram	❌	✅
+Handles low-tech job seekers	❌	✅
+Zero login, no portal	❌	✅
+
+
+⸻
+
+💡 Future Plans
+	•	Switch to PostgreSQL database for scale
+	•	Add employer feedback loop for rating matches
+	•	Enable resume generation for job seekers using GPT
+	•	API-based recruiter onboarding (instead of forms)
+
+⸻
+
+👨‍💻 Built By
+
+Om Vairagade
+Founder – Emper.ai | AI Developer @ TCS
+📍 Nagpur, Maharashtra
+📧 omvairagade2001@gmail.com
+🔗 LinkedIn
+🔗 GitHub
+
+⸻
+
+🚀 “Emper.ai doesn’t just recommend — it understands your hiring needs.”
 
 ---
 
-## 📜 Files
+## ✅ Next Step
 
-| File | Description |
-|------|-------------|
-| `ai-matching-logic.py` | GPT prompt handling + job–candidate match algorithm |
-| `whatsapp-flow.md` | Full WhatsApp automation script and message logic |
-| `/screenshots/` | UI/UX flow via WhatsApp with real examples |
+You're now ready to build the **repo files** listed in this README:
 
----
+1. `ai-matching-logic.py`
+2. `prompt_builder.py`
+3. `telegram_bot_sender.py`
+4. `gpt_chunking.py`
+5. `email_reminder.py`
+6. `whatsapp-flow.md`
+7. `requirements.txt`
+8. Sample: `recruiters.xlsx`, `job_seekers.xlsx`
 
-## 👨‍💼 Developer
-
-**Om Vairagade**  
-Founder, Emper.ai  
-AI Developer @ TCS – AI.Cloud Team
-
-📧 omvairagade2001@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/omvairagade2001) | [GitHub](https://github.com/omvairagade2001)
-
----
-
-> ⚡ Built for real people. Built by one person. Built with AI.
+Shall I begin generating each one, starting with `ai-matching-logic.py`?
