@@ -35,8 +35,17 @@ Login Window:
 ![logincctv](https://github.com/user-attachments/assets/9b122561-181e-4b87-b528-45fcdff70324)
 HomePage:
 ![WhatsApp Image 2025-11-06 at 4 02 13 PM](https://github.com/user-attachments/assets/03ac9543-75fd-437e-bf07-43f9ef721010)
+Sample Results:
+The sample child who lost in crowd
+![WhatsApp Image 2025-11-06 at 4 03 42 PM (3)](https://github.com/user-attachments/assets/109b00ce-4bca-477b-899c-c03997b84ab4)
+The result (found out the child)
+![WhatsApp Image 2025-11-06 at 4 03 42 PM (4)](https://github.com/user-attachments/assets/db85d59b-1795-4c29-b6bc-50a3ed781551)
 
+Similarly a random lost child in whote attire: (found on the custom prompt)
+![WhatsApp Image 2025-11-06 at 4 03 42 PM (2)](https://github.com/user-attachments/assets/838b87ec-ace1-4d67-b0d4-14e55dc6b0af)
 
+Dog or any animal detection:
+![WhatsApp Image 2025-11-06 at 4 03 33 PM (20)](https://github.com/user-attachments/assets/b038b165-3aee-4c58-9401-3b032805b0f7)
 
 
 
