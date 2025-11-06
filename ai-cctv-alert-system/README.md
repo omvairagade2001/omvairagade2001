@@ -38,15 +38,20 @@ HomePage:
 Sample Results:
 The sample child who lost in crowd
 ![WhatsApp Image 2025-11-06 at 4 03 42 PM (3)](https://github.com/user-attachments/assets/109b00ce-4bca-477b-899c-c03997b84ab4)
-The result (found out the child)
+The result (found out the child) : (Prompt: if there is a child in colourfull clothes, primarily white colour , then give alert)
 ![WhatsApp Image 2025-11-06 at 4 03 42 PM (4)](https://github.com/user-attachments/assets/db85d59b-1795-4c29-b6bc-50a3ed781551)
 
-Similarly a random lost child in whote attire: (found on the custom prompt)
+Similarly a random lost child in white attire: (found on the custom prompt)
 ![WhatsApp Image 2025-11-06 at 4 03 42 PM (2)](https://github.com/user-attachments/assets/838b87ec-ace1-4d67-b0d4-14e55dc6b0af)
 
-Dog or any animal detection:
+Dog or any animal detection: (Prompt: if there are animals in the visible scene or thr premises, then give alert)
 ![WhatsApp Image 2025-11-06 at 4 03 33 PM (20)](https://github.com/user-attachments/assets/b038b165-3aee-4c58-9401-3b032805b0f7)
 
+Checking if pandits are there or not
+![WhatsApp Image 2025-11-06 at 4 03 33 PM (11)](https://github.com/user-attachments/assets/3c3bd89a-bb39-45f7-bc34-ecdd45f7c6ca)
+
+Prompt: if there are equipments lying on floor or blocking the road or construction work is going on etc then give alert
+![WhatsApp Image 2025-11-06 at 4 03 33 PM (10)](https://github.com/user-attachments/assets/ed24ac77-b1b0-406d-8908-9cf650812fa0)
 
 
 ## ⚙️ Technical Architecture
