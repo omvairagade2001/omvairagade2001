@@ -28,7 +28,15 @@ Example output:
 	2.	temple gate cam 1: unattended bag detected
 	3.	hall cam 2: child in yellow shirt seen near exit
 ---
+## Below is the Gothrough of the Portal:
+First Checkout the Video: 
+
+Login Window:
 ![logincctv](https://github.com/user-attachments/assets/9b122561-181e-4b87-b528-45fcdff70324)
+HomePage:
+![WhatsApp Image 2025-11-06 at 4 02 13 PM](https://github.com/user-attachments/assets/03ac9543-75fd-437e-bf07-43f9ef721010)
+
+
 
 
 
