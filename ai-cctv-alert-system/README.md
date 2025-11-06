@@ -28,7 +28,9 @@ Example output:
 	2.	temple gate cam 1: unattended bag detected
 	3.	hall cam 2: child in yellow shirt seen near exit
 ---
-(images/logincctv.jpeg)
+![logincctv](https://github.com/user-attachments/assets/9b122561-181e-4b87-b528-45fcdff70324)
+
+
 
 ## ⚙️ Technical Architecture
 
