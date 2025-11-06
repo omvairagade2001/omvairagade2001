@@ -28,7 +28,7 @@ Example output:
 	2.	temple gate cam 1: unattended bag detected
 	3.	hall cam 2: child in yellow shirt seen near exit
 ---
-(.ai-cctv-alert-system/images/WhatsApp Image 2025-11-06 at 4.02.09 PM.jpeg)
+(ai-cctv-alert-system/images/WhatsApp Image 2025-11-06 at 4.02.09 PM.jpeg)
 
 ## ⚙️ Technical Architecture
 
