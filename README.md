@@ -36,9 +36,11 @@ I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building rea
 |--------|-------------|
 | 🔹 [**Emper.ai (NAUKRIZZ) – AI Hiring Platform**](./emper-ai/README.md) | AI-powered WhatsApp hiring system for job-candidate matchmaking |
 | 🔹 [**Emper.ai (Emper CCCTV) - AI-Based CCTV Alert System**](./ai-cctv-alert-system/README.md) | RTSP camera monitoring with AI analysed alerts (sleeping guard, baby near pool, etc.) |
+| 🔹 [**VM Logs Ai Model - Enterprise Security Solution**](./vm-logs-ai/README.md) | Anaysing Azure VM logs if any Member is Violating the company Policy etc |
 | 🔹 [**Cloud Diagram AI Analyzer**](./cloud-diagram-ai-analysis/README.md) | Convert cloud architecture diagrams into smart AI summaries |
 | 🔹 [**Big Data Chunk Processor**](./bigdata-ai-chunk-processor/README.md) | Fast parallel AI processing of Excel datasets (with retry + async logic) |
 | 🔹 [**CSV Dependency Mapper**](./csv-dependency-mapper/README.md) | Maps infra CSVs + fills missing fields like port-to-service using AI |
+| 🔹 [**ClaimSure - Interactive AI Assistant**](./claimsure-ai/README.md) | RAG + General Intelligence Assistant to Answer on the Customer's Claim Status According to Company Policy  |
 
 ---
 
