@@ -12,11 +12,11 @@
 
 ## 🧠 About Me
 
-I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building real-world GPT-integrated automation tools, computer vision systems, and scalable cloud-native architectures.
+I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building real-world AI-integrated automation tools, computer vision systems, and scalable cloud-native architectures.
 
 🔍 Whether it's analyzing live CCTV footage to detect danger, or building a WhatsApp-based AI hiring system from scratch—I bring ideas to life with speed, scale, and purpose.
 
-⚡ I’m also the **Founder of [Emper.ai](#)** – India’s first GPT-powered job-matching platform for skilled + unskilled workers. I build things that work, ship fast, and solve problems that matter.
+⚡ I’m also the **Founder of [Emper.ai](#)** – India’s first AI-powered job-matching platform for skilled + unskilled workers, As well as India’s first AI CCTV-software that detects literally anything you want (on any kind of prompt or any language). I build things that work, ship fast, and solve problems that matter.
 
 ---
 
@@ -34,10 +34,10 @@ I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building rea
 
 | Project | Description |
 |--------|-------------|
-| 🔹 [**Emper.ai – AI Hiring Platform**](./emper-ai/README.md) | GPT-powered WhatsApp hiring system for job-candidate matchmaking |
-| 🔹 [**AI-Based CCTV Alert System**](./ai-cctv-alert-system/README.md) | RTSP camera monitoring with GPT-4 alerts (sleeping guard, baby near pool, etc.) |
-| 🔹 [**Cloud Diagram AI Analyzer**](./cloud-diagram-ai-analysis/README.md) | Convert cloud architecture diagrams into smart GPT summaries |
-| 🔹 [**Big Data Chunk Processor**](./bigdata-ai-chunk-processor/README.md) | Fast parallel GPT processing of Excel datasets (with retry + async logic) |
+| 🔹 [**Emper.ai (NAUKRIZZ) – AI Hiring Platform**](./emper-ai/README.md) | AI-powered WhatsApp hiring system for job-candidate matchmaking |
+| 🔹 [**Emper.ai (Emper CCCTV) - AI-Based CCTV Alert System**](./ai-cctv-alert-system/README.md) | RTSP camera monitoring with AI analysed alerts (sleeping guard, baby near pool, etc.) |
+| 🔹 [**Cloud Diagram AI Analyzer**](./cloud-diagram-ai-analysis/README.md) | Convert cloud architecture diagrams into smart AI summaries |
+| 🔹 [**Big Data Chunk Processor**](./bigdata-ai-chunk-processor/README.md) | Fast parallel AI processing of Excel datasets (with retry + async logic) |
 | 🔹 [**CSV Dependency Mapper**](./csv-dependency-mapper/README.md) | Maps infra CSVs + fills missing fields like port-to-service using AI |
 
 ---
@@ -71,7 +71,7 @@ I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building rea
 
 ## 💼 Skills Snapshot
 
-**AI & GPTs:** OpenAI GPT-4, GPT Agents, Azure OpenAI, Prompt Engineering  
+**AI & GPTs:** OpenAI GPT-4, GPT Agents, Azure OpenAI, Prompt Engineering, Local LLMs, SLMs, Agentic Workflows, etc.  
 **Cloud:** Azure VM, Blob, Logic Apps, Load Balancer, Sentinel, Backup/Restore  
 **Data:** Databricks, Pandas, Excel, CSV Automation, Parallel Processing  
 **Languages:** Python, SQL, Java, Apex  
