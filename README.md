@@ -19,7 +19,7 @@ I build with AI coding tools from the first design to the delivered system, and 
 
 ## Systems
 
-### My own work (code and demos here)
+### My own work
 
 | System | What it does | Result |
 |---|---|---|
