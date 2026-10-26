@@ -1,96 +1,45 @@
-<h1 align="center">👋 Hi, I'm Om Vairagade</h1>
+<h1 align="center">Om Vairagade</h1>
 
 <p align="center">
-  <strong>Ai Developer | Innovation Specialist | Founder @ Emper.ai</strong>  
-  <br>
-  <a href="mailto:omvairagade2001@gmail.com">📩 Email</a> • 
-  <a href="https://www.linkedin.com/in/omvairagade2001">💼 LinkedIn</a> • 
-  <a href="https://github.com/omvairagade2001">🌐 GitHub</a>
+  <strong>Gen AI & Agentic AI Developer · Multi-agent systems, RAG, vision LLMs, Azure cloud AI</strong><br>
+  AI Developer at TCS (AI.Cloud team) since 2023 · Founder, Emper.ai · Nagpur, India
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/omvairagade2001">LinkedIn</a> ·
+  <a href="./om-aideveloper-resume/Om-aideveloper-Resume.pdf">Resume (PDF)</a> ·
+  <a href="mailto:omvairagade2001@gmail.com">Email</a>
 </p>
 
 ---
 
-## 🧠 About Me
+**Ten AI systems built end to end.** They include enterprise cloud-assessment tooling that cut assessment time by 80%,
+a 30-agent adversarial swarm for LLM alignment testing, and an RTSP video-analytics platform piloted 24x7 in the field.
+I build with AI coding tools from the first design to the delivered system, and I verify every result myself.
 
-I’m a **solution-first AI Developer** at **TCS (AI.Cloud Team)**, building real-world AI-integrated automation tools, computer vision systems, and scalable cloud-native architectures.
+## Systems
 
-🔍 Whether it's analyzing live CCTV footage to detect danger, or building a WhatsApp-based AI hiring system from scratch—I bring ideas to life with speed, scale, and purpose.
+### My own work (code and demos here)
 
-⚡ I’m also the **Founder of [Emper.ai](#)** – India’s first AI-powered job-matching platform for skilled + unskilled workers, As well as India’s first AI CCTV-software that detects literally anything you want (on any kind of prompt or any language). I build things that work, ship fast, and solve problems that matter.
+| System | What it does | Result |
+|---|---|---|
+| **Debate.ai** | A 30-agent swarm (5 judges, teams, scorekeepers, hosts) with live code mutation and inter-agent protocols, built to stress-test LLM alignment, logic limits and memory | A self-governing swarm that researches the internet and summarises by itself |
+| **[Emper CCTV](./ai-cctv-alert-system/README.md)** (Emper.ai) | Prompt-based AI rules for ordinary CCTV cameras: real-time tracking (for example a lost child found by clothing colour), instant Telegram alerts | Piloted 24x7 for 15 days at Koradi Mandir; search and recovery 200% faster |
+| **[Naukrizz](./emper-ai/README.md)** (Emper.ai) | Turns conversational job requirements into strict, automatic candidate ranking | No manual resume screening |
+| **Vairagade Forensics Lounge** | OSINT engine that cross-checks 50+ public sources (court records, property records, vehicle challans) | One verification matrix from scattered public records |
+| **Claimsure Assist** | OCR, fraud flags and NLP validation for insurance claims | Hackathon winner |
 
----
+### At TCS (description only; the code belongs to TCS)
 
-## 🧾 Resume
+| System | What it does | Result |
+|---|---|---|
+| **AI Runbook & Questionnaire Engine** | Stateless human-in-the-loop orchestration that turns assessment outputs into a complete migration runbook | Enterprise cloud assessment 80% faster |
+| **AI Design Extractor** | Reads raw architecture PDFs and documents and produces verified Terraform templates | Manual cloud architecture planning removed |
+| **AI Dependency Analyser** | 10-tier inspection of enterprise server estates | Assessment matrices and firewall groupings generated automatically |
+| **Autonomous SecOps Compliance Agent** | A watcher agent over VM telemetry that flags workflow deviations in real time | Compliance enforced as it happens |
+| **AI Dynamic Dashboard** | Natural-language Q&A over databases, prompt-driven charts, RAG app navigation | Static data pools became conversational dashboards |
 
-📄 [**Download Resume (PDF)**](./om-aideveloper-resume/Om-aideveloper-Resume.pdf)
+## Skills
 
-📄 [**View in Markdown**](./om-aideveloper-resume/README.md)
-
----
-
-## 🚀 Projects Showcase
-
-### 🤖 AI & Automation
-
-| Project | Description |
-|--------|-------------|
-| 🔹 [**Emper.ai (NAUKRIZZ) – AI Hiring Platform**](./emper-ai/README.md) | AI-powered WhatsApp hiring system for job-candidate matchmaking |
-| 🔹 [**Emper.ai (Emper CCCTV) - AI-Based CCTV Alert System**](./ai-cctv-alert-system/README.md) | RTSP camera monitoring with AI analysed alerts (sleeping guard, baby near pool, etc.) |
-| 🔹 [**VM Logs Ai Model - Enterprise Security Solution**](./vm-logs-ai/README.md) | Anaysing Azure VM logs if any Member is Violating the company Policy etc |
-| 🔹 [**Cloud Diagram AI Analyzer**](./cloud-diagram-ai-analysis/README.md) | Convert cloud architecture diagrams into smart AI summaries |
-| 🔹 [**Big Data Chunk Processor**](./bigdata-ai-chunk-processor/README.md) | Fast parallel AI processing of Excel datasets (with retry + async logic) |
-| 🔹 [**CSV Dependency Mapper**](./csv-dependency-mapper/README.md) | Maps infra CSVs + fills missing fields like port-to-service using AI |
-| 🔹 [**ClaimSure - Interactive AI Assistant**](./claimsure-ai/README.md) | RAG + General Intelligence Assistant to Answer on the Customer's Claim Status According to Company Policy  |
-
----
-
-### 🏗️ Systems & Infrastructure
-
-| Project | Description |
-|--------|-------------|
-| 🔹 [**Azure Multi-Tier Architecture**](./azure-multi-tier-deployment/README.md) | Deployed secure, scalable multi-tier apps on Azure VMs + services |
-
----
-
-### 📊 BI & Enterprise Tools
-
-| Project | Description |
-|--------|-------------|
-| 🔹 [**Tableau Safety Dashboard**](./tableau-safety-dashboard/README.md) | Data insights for insurance & equipment safety — interactive dashboards |
-| 🔹 [**Anaplan Forecasting**](./anaplan-forecasting-project/README.md) | Unicorn Candy Co. use case — scenario modeling, budgeting & planning |
-| 🔹 [**Salesforce Doctor CRM**](./salesforce-doctor-patient-crm/README.md) | Apex + LWC-based patient relationship system (objects, dashboards, triggers) |
-
----
-
-### 🧰 Full Stack Projects
-
-| Project | Description |
-|--------|-------------|
-| 🔹 [**School Library App (Django)**](./django-school-library/README.md) | Book portal with CRUD, class-wise categorization, download & report |
-| 🔹 [**UML & SRS Design Docs**](./staruml-design-srs/README.md) | Use Case diagrams, activity flows, and requirement docs using STAR UML |
-
----
-
-## 💼 Skills Snapshot
-
-**AI & GPTs:** OpenAI GPT-4, GPT Agents, Azure OpenAI, Prompt Engineering, Local LLMs, SLMs, Agentic Workflows, etc.  
-**Cloud:** Azure VM, Blob, Logic Apps, Load Balancer, Sentinel, Backup/Restore  
-**Data:** Databricks, Pandas, Excel, CSV Automation, Parallel Processing  
-**Languages:** Python, SQL, Java, Apex  
-**Visualization:** Tableau, Salesforce Dashboards  
-**Frameworks:** Django, Flask  
-**Tools:** Termux, Tailscale, VS Code, SlideSpeak, ThreadPoolExecutor  
-**Design:** STAR UML, Use Case Modeling, SRS, Activity Diagrams
-
----
-
-## 🧠 Philosophy
-
-> “I don’t wait for ideas — I build them, test them, and ship them. Innovation is my reflex.”  
-> — Om Vairagade
-
----
-
-<p align="center">
-  🔗 Connect with me on <a href="https://www.linkedin.com/in/omvairagade2001">LinkedIn</a> • 📬 Reach me at <a href="mailto:omvairagade2001@gmail.com">omvairagade2001@gmail.com</a>
-</p>
+Python · SQL · Multi-agent orchestration · RAG · Vision LLMs · Azure AI Foundry · Databricks · Logic Apps · Azure
+Runbooks · RTSP video analytics · Headless browsing · AI-assisted development (GitHub Copilot)
