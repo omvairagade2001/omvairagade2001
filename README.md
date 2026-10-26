@@ -2,7 +2,8 @@
 
 <p align="center">
   <strong>Gen AI & Agentic AI Developer · Multi-agent systems, RAG, vision LLMs, Azure cloud AI</strong><br>
-  AI Developer at TCS (AI.Cloud team) since 2023 · Founder, Emper.ai · Nagpur, India
+  AI Developer at TCS (AI.Cloud team) since 2023 · Founder, Emper.ai · Nagpur, India<br>
+  <strong>MBA in AI for Business (pursuing), BITS Pilani</strong>
 </p>
 
 <p align="center">
