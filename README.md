@@ -1,14 +1,13 @@
 <h1 align="center">Om Vairagade</h1>
 
 <p align="center">
-  <strong>Gen AI & Agentic AI Developer · Multi-agent systems, RAG, vision LLMs, Azure cloud AI</strong><br>
-  AI Developer at TCS (AI.Cloud team) since 2023 · Founder, Emper.ai · Nagpur, India<br>
+  <strong>Gen AI Solutions Architect & Agentic AI Engineer · Multi-agent systems, RAG, vision LLMs, Azure</strong><br>
+  AI Developer at TCS (AI.Cloud team) since 2023 · Emper.ai (independent R&D) · Nagpur, India<br>
   <strong>MBA in AI for Business (pursuing), BITS Pilani</strong>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/omvairagade2001">LinkedIn</a> ·
-  <a href="./om-aideveloper-resume/Om-aideveloper-Resume.pdf">Resume (PDF)</a> ·
   <a href="mailto:omvairagade2001@gmail.com">Email</a>
 </p>
 
